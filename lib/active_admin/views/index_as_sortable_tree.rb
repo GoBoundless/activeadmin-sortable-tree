@@ -2,7 +2,7 @@ module ActiveAdmin
   module Views
 
     # = Index as a Sortable List or Tree
-    class IndexAsSortable < ActiveAdmin::Component
+    class IndexAsSortableTree < ActiveAdmin::Component
       def build(page_presenter, collection)
         @page_presenter = page_presenter
         @options = active_admin_config.dsl.sortable_options
