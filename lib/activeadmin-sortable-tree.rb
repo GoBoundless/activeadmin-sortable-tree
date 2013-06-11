@@ -1,2 +1,1 @@
-require 'active_admin/sortable_tree
-'
+require 'active_admin/sortable_tree'
