@@ -6,7 +6,7 @@ require "active_admin/sortable_tree/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "activeadmin-sortable-tree"
-  s.version     = ActiveAdmin::Sortable::VERSION
+  s.version     = ActiveAdmin::SortableTree::VERSION
   s.authors     = ["Francesco Disperati"]
   s.email       = ["nebirhos@aol.com"]
   s.homepage    = "https://github.com/nebirhos/activeadmin-sortable-tree"
