@@ -15,7 +15,7 @@ $ ->
           $this.sortable("enable")
     .disableSelection()
 
-  $(".index_as_sortable [data-sortable-type]").each ->
+  $(".index_as_sortable_tree [data-sortable-type]").each ->
     $this = $(@)
     if $this.data('sortable-type') == "tree"
       max_levels = $this.data('max-levels')
